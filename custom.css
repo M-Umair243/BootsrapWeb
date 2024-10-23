@@ -1,0 +1,67 @@
+body{
+    background-color: #F8F9FA;
+}
+
+.hero {
+  height: 100vh;
+  position: relative;
+  background-image: url(./assets/her-bg.jpg);
+  background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.ex-h1 {
+  font-size: 44px;
+}
+.hero::before {
+  position: absolute;
+  content: "";
+  background-color: #1c375e;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.3;
+}
+.color-overlay {
+  top: 10px;
+  position: relative;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.hero-text {
+  width: 500px;
+}
+.bi-layers,
+.bi-window,
+.bi-terminal {
+  font-size: 80px;
+}
+.ex-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 450px;
+  height: 100%;
+}
+
+.reverse-row {
+  flex-direction: row-reverse;
+}
+.img-fluid {
+  width: 200px;
+}
+.sign-up{
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sign-text{
+    width: 550px;
+}
+
